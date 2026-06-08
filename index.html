@@ -1,0 +1,353 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P2Go LTDA | Persianas e Cortinas Sob Medida</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+:root{
+    --primary:#0d6efd;
+    --secondary:#003366;
+    --light:#f8f9fa;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.service-card{
+    transition:.3s;
+    border:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.icon-box{
+    font-size:48px;
+    color:var(--primary);
+}
+
+.section-title{
+    font-weight:700;
+    color:var(--secondary);
+    margin-bottom:20px;
+}
+
+.cta{
+    background:var(--secondary);
+    color:white;
+    padding:60px 0;
+}
+
+.footer{
+    background:#111;
+    color:#ddd;
+    padding:40px 0;
+}
+
+.badge-info{
+    background:#e9f2ff;
+    color:#0d6efd;
+    padding:8px 15px;
+    border-radius:30px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+<div class="container">
+<a class="navbar-brand fw-bold text-primary" href="#">
+P2Go LTDA
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+<li class="nav-item"><a class="nav-link" href="#empresa">Empresa</a></li>
+<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<div class="container">
+<div class="row">
+<div class="col-lg-7">
+
+<span class="badge-info">
+✓ Persianas • Cortinas • Instalação • Manutenção
+</span>
+
+<h1 class="display-4 fw-bold mt-3">
+Soluções completas em Persianas e Cortinas Sob Medida
+</h1>
+
+<p class="lead mt-4">
+Atendimento especializado para residências, escritórios,
+condomínios e projetos corporativos.
+Produtos de qualidade, instalação profissional e suporte técnico.
+</p>
+
+<div class="mt-4">
+<a href="#contato" class="btn btn-primary btn-lg">
+Solicitar Orçamento
+</a>
+
+<a href="#empresa" class="btn btn-outline-light btn-lg">
+Conheça a Empresa
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="py-5">
+<div class="container">
+
+<h2 class="text-center section-title">
+Principais Serviços
+</h2>
+
+<div class="row g-4 mt-3">
+
+<div class="col-md-4">
+<div class="card service-card h-100 p-4 text-center">
+<div class="icon-box">🪟</div>
+<h4>Persianas Sob Medida</h4>
+<p>
+Venda e fornecimento de persianas para ambientes residenciais
+e corporativos.
+</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card service-card h-100 p-4 text-center">
+<div class="icon-box">🏠</div>
+<h4>Cortinas Personalizadas</h4>
+<p>
+Projetos personalizados com diversos tecidos, modelos e acabamentos.
+</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card service-card h-100 p-4 text-center">
+<div class="icon-box">🔧</div>
+<h4>Instalação Profissional</h4>
+<p>
+Equipe qualificada para instalação rápida e segura.
+</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card service-card h-100 p-4 text-center">
+<div class="icon-box">🛠️</div>
+<h4>Manutenção e Reparos</h4>
+<p>
+Reparação de artigos do mobiliário e sistemas de persianas.
+</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card service-card h-100 p-4 text-center">
+<div class="icon-box">🧼</div>
+<h4>Lavagem Especializada</h4>
+<p>
+Serviços de limpeza e conservação de cortinas e persianas.
+</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card service-card h-100 p-4 text-center">
+<div class="icon-box">🏢</div>
+<h4>Projetos Corporativos</h4>
+<p>
+Atendimento para empresas, escritórios e grandes empreendimentos.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- SOBRE -->
+<section id="empresa" class="py-5 bg-light">
+<div class="container">
+
+<h2 class="section-title text-center">
+Sobre a Empresa
+</h2>
+
+<div class="row mt-5">
+
+<div class="col-lg-6">
+<h4>P2Go LTDA</h4>
+
+<p>
+Razão Social: <strong>Diy Persianas e Cortinas Ltda.</strong>
+</p>
+
+<p>
+Especializada no comércio varejista e atacadista de artigos de tapeçaria,
+persianas e cortinas, oferecendo soluções completas para projetos
+residenciais e corporativos.
+</p>
+
+<ul>
+<li>CNPJ: 31.332.104/0001-27</li>
+<li>Fundação: 24/08/2018</li>
+<li>Situação Cadastral: Ativa</li>
+<li>Capital Social: R$ 718.315,00</li>
+<li>Matriz em Campinas/SP</li>
+</ul>
+
+</div>
+
+<div class="col-lg-6">
+
+<div class="card shadow-sm p-4">
+
+<h5>Dados Empresariais</h5>
+
+<p><strong>Natureza Jurídica:</strong> Sociedade Empresária Limitada</p>
+
+<p><strong>Porte:</strong> Sem Enquadramento</p>
+
+<p><strong>Responsáveis:</strong></p>
+
+<ul>
+<li>Francisco Prisco Paraiso</li>
+<li>Rodrigo Cima Pio da Silva</li>
+<li>Hunter Douglas do Brasil LTDA</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+<div class="container text-center">
+
+<h2>
+Solicite seu orçamento agora
+</h2>
+
+<p class="lead">
+Atendimento especializado para residências, empresas e projetos personalizados.
+</p>
+
+<a href="tel:+551150902020" class="btn btn-light btn-lg">
+📞 (11) 5090-2020
+</a>
+
+</div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="py-5">
+<div class="container">
+
+<h2 class="section-title text-center">
+Contato e Localização
+</h2>
+
+<div class="row mt-5">
+
+<div class="col-lg-6">
+
+<h5>Endereço</h5>
+
+<p>
+Rua Maestro Francisco Manoel da Silva, 282<br>
+Sala 02<br>
+Jardim Santa Genebra<br>
+Campinas - SP<br>
+CEP 13080-190
+</p>
+
+</div>
+
+<div class="col-lg-6">
+
+<h5>Informações de Contato</h5>
+
+<p>
+📞 (11) 5090-2020
+</p>
+
+<p>
+✉ fiscal.coordenacao@hdlao.com
+</p>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container text-center">
+
+<h5>P2Go LTDA</h5>
+
+<p>
+DIY Persianas e Cortinas Ltda.
+</p>
+
+<p>
+CNPJ: 31.332.104/0001-27
+</p>
+
+<p>
+© 2026 Todos os direitos reservados.
+</p>
+
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
